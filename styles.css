@@ -103,3 +103,119 @@ header nav a:hover {
   width: 50%;
   font-family: 'Montserrat Medium';
 }
+
+.our-works {
+  background: linear-gradient(#504DC2 50%, #fff 50%);
+  padding: 100px 0 85px;
+}
+.our-works-title {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.our-works-title h2 {
+  font-size: 36px;
+  line-height: 53px;
+  font-family: 'Montserrat Bold';
+  color: #FFFFFF;
+  max-width: 50%;
+}
+.our-works-items {
+  justify-content: space-between;
+  padding-bottom: 85px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.our-works-item {
+  /* border: 2px solid red; */
+  width: 30%;
+}
+.our-works-item img {
+  width: 100%;
+}
+.our-works-item h5 {
+  font-family: 'Montserrat Medium';
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 30px;
+}
+.our-works-item h5 span {
+  color: #4985FF;
+}
+.our-works-item p {
+  font-family: 'Montserrat Medium';
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  margin: 30px 0;
+}
+.our-works-item a {
+  font-family: 'Montserrat Medium';
+  font-size: 16px;
+  line-height: 20px;
+  color: #4985FF;
+}
+
+.subscribe {
+  text-align: center;
+  padding: 85px 0;
+}
+.subscribe p {
+  margin: 20px 0 30px;
+}
+.subscribe-block {
+  justify-content: center;
+  width: 490px;
+  margin: auto;
+  margin-bottom: 35px;
+}
+.subscribe-block input {
+  flex: 2;
+  border-radius: 30px 0 0 30px;
+  border: 1px solid #F2F2F2;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  font-size: 13px;
+  line-height: 21px;
+  color: #999999;
+  font-family: 'Montserrat Medium';
+  padding-left: 33px;
+}
+.subscribe-block input::placeholder {
+  font-size: 13px;
+  line-height: 21px;
+  color: #999999;
+  font-family: 'Montserrat Medium';
+}
+.subscribe-block input:focus {
+  outline: none;
+}
+.subscribe-block button {
+  flex: 1;
+  border-radius: 0 30px 30px 0;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+}
+@media(max-width: 1000px) {
+  .our-works-items {
+    flex-wrap: wrap;
+  }
+  .our-works-item {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+@media(max-width: 750px) {
+  .our-works-item h5,
+  .our-works-item p,
+  .our-works-item a {
+    font-size: 14px;
+  }
+}
+@media(max-width: 700px) {
+  .our-works-item {
+    width: 100%;
+  }
+}
+@media(max-width: 550px) {
+  .subscribe-block {
+    width: 95%;
+  }
+}
